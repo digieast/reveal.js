@@ -1,5 +1,18 @@
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 
+## Additions by Markus
+
+I have made the use of slide deck bit easier. You need to have [pandoc](http://johnmacfarlane.net/pandoc/) installed on your computer. Then 
+
+1. you clone this repo as `git clone git@github.com:digieast/reveal.js.git` 
+2. type `cd reveal.js`
+3. edit **slides.md** using your favourite editor
+4. run `pandoc --section-divs -t html5 -s --template templates/template_default.revealjs -o slides.html slides.md` and take a look at the file **slides.html**
+
+With the default content the slides look like this: [slides.html](https://rawgithub.com/digieast/reveal.js/master/slides.html)
+
+*****
+
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
 
 reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). It's best viewed in a browser with support for CSS 3D transforms but [fallbacks](https://github.com/hakimel/reveal.js/wiki/Browser-Support) are available to make sure your presentation can still be viewed elsewhere.
